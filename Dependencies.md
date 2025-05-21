@@ -1,4 +1,4 @@
-* Dependencies
+**Dependencies**
 
 - Extenject  
 - Cinemachine
