@@ -1,0 +1,75 @@
+# ===============================
+# ✅ Unity .gitignore для соло-розробника
+# Технології: URP, 2D, Unity Relay
+# ===============================
+
+# ❌ Системні тимчасові файли
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ❌ Тимчасові файли редагування
+*.swp
+*.tmp
+*.bak
+
+# ❌ Unity кеш і збірки
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# ❌ Rider / VS / VS Code / JetBrains
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.user
+*.pidb
+*.suo
+*.unityproj
+*.booproj
+
+# ❌ Unity Collaborate (не використовуєш)
+.collab/
+.collabignore
+
+# ❌ Інше
+sysinfo.txt
+*.apk
+*.aab
+*.exe
+*.app
+*.unitypackage
+*.pdb
+*.mdb
+*.opendb
+
+# ❌ Lighting data — генерується автоматично
+**/LightingData.asset
+
+# ❌ Addressables (тільки кеш AssetBundles, не дані)
+*/AssetBundles
+
+# ❌ Plastic SCM
+.plastic/
+ignore.conf
+match.conf
+
+# ✅ Залишаємо важливі файли:
+!Assets/
+!ProjectSettings/
+!Packages/
+
+# ✅ Якщо використовуєш Unity Relay (через Services) — ці папки потрібні
+!Assets/Environments/
+!Assets/StreamingAssets/
+
+# (опціонально) Якщо хочеш додати сцени, які працюють тільки локально:
+# Scenes/**/Debug*.unity
+
+# ===============================
+# 🧹 Чисто, просто, зручно
+# ===============================
